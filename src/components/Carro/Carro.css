@@ -1,6 +1,6 @@
 .carro{
     width: 300px;
-    height: 400px;
+    height: 450px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -12,10 +12,21 @@
     transition: .6s all;
 }
 .carro:hover{
-    transform: scale(1.2);
+    transform: scale(1.1);
+}
+.carro h2{
+    text-align: center;
 }
 .carro img{
     max-width: 100%;
     max-height: 200px;
     border-radius: 8px;
+}
+
+.lixeira{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
 }

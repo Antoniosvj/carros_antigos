@@ -1,0 +1,32 @@
+{
+  "carros": [
+    {
+      "id": "a03c",
+      "nome": "Ford Model T",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/1925_Ford_Model_T_touring.jpg/280px-1925_Ford_Model_T_touring.jpg",
+      "descricao": "Modelo icônico que revolucionou a indústria automobilística.",
+      "ano": "1908-1927"
+    },
+    {
+      "id": "593f",
+      "nome": "Chevrolet Bel Air",
+      "img": "https://i0.wp.com/thegarage.com.br/wp-content/uploads/2021/09/1956-chevrolet-bel-air-a-venda-sao-paulo-sp-for-sale-the-garage-classicos-a-melhor-loja-de-carros-antigos-acervo-de-carros-38-1.jpg?fit=2048%2C1367&ssl=1",
+      "descricao": "Símbolo dos anos 50, estilo e conforto em um sedan.",
+      "ano": "1950-1975"
+    },
+    {
+      "id": "e3d0",
+      "nome": "Fiat 500 Topolino",
+      "img": "https://forbes.com.br/wp-content/uploads/2023/01/FHA094_500Topolino1936-1948A_1024.jpg",
+      "descricao": "Pequeno carro italiano, urbano e econômico.",
+      "ano": "1936-1955"
+    },
+    {
+      "id": "c28f",
+      "nome": "Porche 356",
+      "img": "https://www.disalconsorcio.com.br/blog/wp-content/uploads/2023/06/Porsche-356-A.jpg",
+      "descricao": "Primeiro modelo da Porsche, esportivo e elegante.",
+      "ano": "1948-1965"
+    }
+  ]
+}

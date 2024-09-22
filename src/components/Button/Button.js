@@ -1,7 +1,15 @@
 import './Button.css';
 
-export const Button = ({ text, ...props }) =>{
+export const Button = ({ text, onClick, ...props }) =>{
     return(
-        <button className='button' type={props.type}>{text}</button>
+        <button 
+            className='button' 
+            type={props.type}
+            onClick={(event) =>{
+                event.preventDefault();//não recarregar a pagina
+                onClick()
+            }}
+        >{text}
+        </button>
     )
 }

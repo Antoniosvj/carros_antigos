@@ -7,7 +7,7 @@ export const Form = () => {
       <h3>Para receber nossas novidades, cadastre-se aqui.</h3>
       <FormInput InputName='Nome' type='text'/>
       <FormInput InputName='Email' type='email'/>
-      <Button text='Cadastrar' type='submit'/>
+      <Button text='Cadastrar' type='submit' onClick={()=> alert('Cadastro realizado com sucesso!')}/>
     </form>
   );
 };
